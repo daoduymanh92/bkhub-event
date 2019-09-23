@@ -436,7 +436,7 @@
 							<div class="row">
 								<div class="form-group">
 									<label>Họ và Tên</label>
-									<input type="text" class="form-control" name="Họ và tên"
+									<input type="text" class="form-control" name="name"
 										placeholder="First Name" required="" aria-required="true">
 								</div>
 							</div>
@@ -493,16 +493,24 @@
 				type: request_method,
 				data : form_data
 			}).done(function(response){ //
-				// $("#server-results").html(response);
-				console.log(response);
 				$('#email-register').modal('hide');
-				Swal.fire({
-				  position: 'center',
-				  type: 'success',
-				  title: 'Bạn đăng ký chỗ thành công',
-				  showConfirmButton: false,
-				  timer: 1500
-				})
+				if(response.err == 0) {
+					Swal.fire({
+					  position: 'center',
+					  type: 'success',
+					  title: 'Bạn đăng ký chỗ thành công',
+					  showConfirmButton: false,
+					  timer: 3000
+					})					
+				} else {
+					Swal.fire({
+					  position: 'center',
+					  type: 'warning',
+					  title: 'Bạn cần nhập đầy đủ thông tin',
+					  showConfirmButton: false,
+					  timer: 3000
+					})					
+				}
 			});
 		});
 	});

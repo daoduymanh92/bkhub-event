@@ -16,3 +16,12 @@ Route::get('/', function () {
 });
 
 Route::post('post-register-email', 'CustomerController@postRegisterEmail');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::middleware(['auth'])->group(function () {
+	Route::get('test', 'CustomerController@test');
+
+	Route::get('book-list', 'CustomerController@bookingList');
+});
