@@ -82,7 +82,7 @@
                                     <a href="/book-list">Danh sách đặt chỗ</a>
                                 </li>
                                 <li>
-                                    <a href="#">Tin nhắn góp ý</a>
+                                    <a href="/question-list">Tin nhắn góp ý</a>
                                 </li>
                             </ul>
                         </nav>

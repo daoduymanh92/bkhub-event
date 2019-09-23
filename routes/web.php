@@ -16,6 +16,10 @@ Route::get('/', function () {
 });
 
 Route::post('post-register-email', 'CustomerController@postRegisterEmail');
+Route::post('ask-question', 'CustomerController@askQuestion');
+
+
+
 // Auth::routes();
 // Authentication Routes...
 Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
@@ -33,4 +37,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::middleware(['auth'])->group(function () {
 	Route::get('test', 'CustomerController@test');
 	Route::get('book-list', 'CustomerController@bookingList');
+	Route::get('question-list', 'CustomerController@questionList');
 });

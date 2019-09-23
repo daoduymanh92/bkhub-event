@@ -381,13 +381,13 @@
 			<p>Nếu bạn có bất kỳ câu hỏi nào về sự kiện, hãy gửi cho chúng tôi</p>
 		</div>
 		<div class="contact-form bottom-space-xl wow fadeInUp">
-			<form action="" id=""
+			<form action="/ask-question" id="ask_question"
 				method="POST" novalidate="novalidate">
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3">
 						<div class="form-group">
 							<label>Họ vào tên</label>
-							<input type="text" class="form-control" name="first_name" placeholder="First Name"
+							<input type="text" class="form-control" name="name" placeholder="First Name"
 								required="" aria-required="true">
 						</div>
 
@@ -499,6 +499,38 @@
 					  position: 'center',
 					  type: 'success',
 					  title: 'Bạn đăng ký chỗ thành công',
+					  showConfirmButton: false,
+					  timer: 3000
+					})					
+				} else {
+					Swal.fire({
+					  position: 'center',
+					  type: 'warning',
+					  title: 'Bạn cần nhập đầy đủ thông tin',
+					  showConfirmButton: false,
+					  timer: 3000
+					})					
+				}
+			});
+		});
+
+		// create message
+		$("#ask_question").submit(function(event){
+			event.preventDefault(); //prevent default action 
+			var post_url = $(this).attr("action"); //get form action url
+			var request_method = $(this).attr("method"); //get form GET/POST method
+			var form_data = $(this).serialize(); //Encode form elements for submission
+			
+			$.ajax({
+				url : post_url,
+				type: request_method,
+				data : form_data
+			}).done(function(response){ //
+				if(response.err == 0) {
+					Swal.fire({
+					  position: 'center',
+					  type: 'success',
+					  title: 'Cảm ơn bạn đã gửi tin nhắn',
 					  showConfirmButton: false,
 					  timer: 3000
 					})					
