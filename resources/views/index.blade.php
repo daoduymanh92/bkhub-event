@@ -222,7 +222,7 @@
 							</div>
 
 							<div class="timeline-content">
-								<h2 class="wow flipInX" data-wow-delay="0.3s"> Giới thiệu chương trình</h2>
+								<h2 class="wow flipInX" data-wow-delay="0.3s"> Câu chuyện viết app - không khó như bạn nghĩ.</h2>
 								<span class="date wow flipInX" data-wow-delay="0.3s">14:00</span>
 							</div>
 
@@ -233,19 +233,8 @@
 							</div>
 
 							<div class="timeline-content">
-								<h2 class="wow flipInX" data-wow-delay="0.3s"> Giới thiệu người tham gia</h2>
-								<p class="wow flipInX" data-wow-delay="0.3s">by Ngọc PM</p>
-								<span class="date wow flipInX" data-wow-delay="0.3s">14:30</span>
-							</div>
-
-						</div>
-						<div class="timeline-block">
-							<div class="timeline-bullet wow zoomIn" data-wow-delay="0s">
-							</div>
-
-							<div class="timeline-content">
-								<h2 class="wow flipInX" data-wow-delay="0.3s"> Nghỉ giải lao</h2>
-								<p class="wow flipInX" data-wow-delay="0.3s">by Ngọc PM</p>
+								<h2 class="wow flipInX" data-wow-delay="0.3s"> Challenge tạo app chỉ trong 1 giờ dưới sự hướng dẫn của Team Leader 30SHINE</h2>
+								<!-- <p class="wow flipInX" data-wow-delay="0.3s">by Ngọc PM</p> -->
 								<span class="date wow flipInX" data-wow-delay="0.3s">15:00</span>
 							</div>
 
@@ -255,9 +244,20 @@
 							</div>
 
 							<div class="timeline-content">
-								<h2 class="wow flipInX" data-wow-delay="0.3s"> Giới thiệu sản phẩm</h2>
-								<p class="wow flipInX" data-wow-delay="0.3s">by Ngọc PM</p>
+								<h2 class="wow flipInX" data-wow-delay="0.3s"> Trao giải thưởng</h2>
+								<!-- <p class="wow flipInX" data-wow-delay="0.3s">by Ngọc PM</p> -->
 								<span class="date wow flipInX" data-wow-delay="0.3s">16:00</span>
+							</div>
+
+						</div>
+						<div class="timeline-block">
+							<div class="timeline-bullet wow zoomIn" data-wow-delay="0s">
+							</div>
+
+							<div class="timeline-content">
+								<h2 class="wow flipInX" data-wow-delay="0.3s"> Giải đáp thắc mắc về lập trình ứng dụng thời 4.0</h2>
+								<!-- <p class="wow flipInX" data-wow-delay="0.3s">by Ngọc PM</p> -->
+								<span class="date wow flipInX" data-wow-delay="0.3s">16:10</span>
 							</div>
 
 						</div>
@@ -337,15 +337,15 @@
 			<div class="row">
 				<div class="col-md-6 wow fadeInLeft" data-wow-duration="2s">
 					<h6 class="faq-title">Người không biết gì về toán có học lập trình được không?</h6>
-					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+					<p>Để trở thành chuyên gia thì đúng là cần giỏi toán. Nhưng không phải tất cả công việc lập trình đều liên quan đến toán. Bạn vẫn kiếm được $1000 với điểm toán trung bình.</p>
 					<h6 class="faq-title">Người không bằng cấp có xin được việc trong ngành lập trình?</h6>
-					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+					<p>Riêng ngành lập trình, bạn chỉ cần làm được việc, là sẵn sàng hàng ngàn công ty chào đón bạn. Hãy quên tấm bằng đỏ đi.</p>
 				</div>
 				<div class="col-md-6 wow fadeInRight" data-wow-duration="2s">
 					<h6 class="faq-title">Làm việc ngành lập trình này có phải khó tìm người yêu?</h6>
-					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+					<p>Lập trình đã và đang được đánh giá là ngành hot, lương cao. Bạn có tiền rồi, thì tán gái bạn biết làm như nào rồi đấy.</p>
 					<h6 class="faq-title">Làm IT có phải việc nhàn lương cao?</h6>
-					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+					<p>Làm IT thì đúng là công việc thời thượng lương cao. Còn nhàn hay không là do bạn có đam mê hay không nhé.</p>
 				</div>
 			</div>
 		</div>
