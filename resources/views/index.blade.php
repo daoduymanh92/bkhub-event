@@ -398,7 +398,7 @@
 						</div>
 						<div class="form-group">
 							<label>Số Điện Thoại</label>
-							<input type="text" class="form-control" name="phone" placeholder="Phone Number" required=""
+							<input type="number" class="form-control" name="phone" placeholder="Phone Number" required=""
 								aria-required="true">
 						</div>
 						<div class="form-group">
@@ -527,6 +527,7 @@
 				data : form_data
 			}).done(function(response){ //
 				if(response.err == 0) {
+					$('#ask_question')[0].reset();
 					Swal.fire({
 					  position: 'center',
 					  type: 'success',
